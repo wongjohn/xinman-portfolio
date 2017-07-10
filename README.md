@@ -1,0 +1,1 @@
+# A WordPress Theme for Xinman Shan.
