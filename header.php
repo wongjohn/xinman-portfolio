@@ -26,12 +26,17 @@
 			<span class="Name"><a href="<?php echo esc_url( home_url( '/' ) ); ?>" style="color:#000;"><?php bloginfo( 'name' ); ?></a></span>
 			<div style="margin-top:40px; text-transform:uppercase; font-size:11px; letter-spacing:1px;">
 				<div style="text-transform:none; font-size:12px; font-family:tahoma; text-align:left; margin:10px 0px; padding-left:10px;">
-					<div><a href="<?php echo esc_url( home_url( '/' ) ); ?>">Portraits</a></div>
-					<div><a href="<?php echo esc_url( home_url( '/' ) ); ?>">New York</a></div>
-					<div><a href="<?php echo esc_url( home_url( '/' ) ); ?>">Dancers</a></div>
-					<div><a href="<?php echo esc_url( home_url( '/' ) ); ?>">Nude</a></div>
-					<div><a href="<?php echo esc_url( home_url( '/' ) ); ?>">Hidden</a></div>
-					<div><a href="<?php echo esc_url( home_url( '/' ) ); ?>">Self Portraits</a></div>
+					<?php
+						$args = array(
+							'orderby' => 'name',
+							'order' => 'ASC',
+							'hide_empty' => false
+						);
+						$categories = get_categories( $args );
+						foreach ($categories as $category) {
+							echo '<div><a href="'. get_category_link($category->term_id) .'">' . $category-> name .'</a></div>';
+						}
+						?>
 				</div>
 			</div>
 		</div>
