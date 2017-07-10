@@ -8,4 +8,4 @@
 */
 ?>
 
-<?php _e( '404 Nothing found!', 'tuts' ); ?>
+<img src="<?php echo get_template_directory_uri();?>/img/404.jpg">
