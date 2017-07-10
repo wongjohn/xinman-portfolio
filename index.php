@@ -12,11 +12,7 @@
 get_header();
 ?>
 
-<div style="left:360px; top:60px; position:absolute;">
-    <div style="color:#000; margin-top:40px;">
-        <span style="letter-spacing:1px;">Dancers</span>
-        <div>New York, Moscow</div>
-    </div>
+<div style="left:160px; top:60px; position:absolute;">
     <div style="width:700px; margin:20px 0px;">
         <div class="image-row">
             <div class="image-set">
