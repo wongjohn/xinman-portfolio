@@ -9,7 +9,7 @@
 ?>
 
 		<div class="footer">
-			内容版权归单馨漫所有
+			内容版权归&copy;单馨漫所有
 		</div>
 
 		<?php wp_footer(); ?>
