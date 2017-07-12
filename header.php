@@ -39,4 +39,8 @@
 						?>
 				</div>
 			</div>
+
+			<nav id="site-navigation" class="main-navigation clearfix" role="navigation">
+				<?php	wp_page_menu(array('menu_class' => 'nav-menu')); ?>
+			</nav>
 		</div>

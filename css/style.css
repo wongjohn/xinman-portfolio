@@ -152,3 +152,7 @@ a.active,a.link {
     height: 100%;
     text-align:center;
 }
+#site-navigation {
+    text-align: left;
+    padding-left: 10px;
+}
