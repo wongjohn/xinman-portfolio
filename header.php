@@ -17,8 +17,6 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<link rel="stylesheet" href="<?php echo get_template_directory_uri();?>/css/style.css">
 		<link rel="stylesheet" href="<?php echo get_template_directory_uri();?>/css/lightbox.css">
-		<script src="<?php echo get_template_directory_uri();?>/js/jquery-1.10.2.min.js" type="text/javascript"></script>
-		<script src="<?php echo get_template_directory_uri();?>/js/lightbox-2.6.min.js" type="text/javascript"></script>
 		<?php wp_head(); ?>
 	</head>
 	<body <?php body_class(); ?> >
