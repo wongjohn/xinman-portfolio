@@ -12,8 +12,8 @@
 get_header();
 ?>
 
-<div style="left:160px; top:60px; position:absolute;">
-    <div style="width:700px; margin:20px 0px;">
+<div class="content-wrapper">
+    <div class="content-container">
         <div class="image-row">
             <div class="image-set">
                 <?php

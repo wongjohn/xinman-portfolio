@@ -156,3 +156,18 @@ a.active,a.link {
     text-align: left;
     padding-left: 10px;
 }
+.content-wrapper {
+    position:absolute;
+    left:160px;
+    top:60px;
+}
+.content-container{
+    width:700px;
+    margin:20px 0;
+}
+#Menu {
+    position:fixed;
+    top:80px;
+    left:900px;
+    text-align:center;
+}
