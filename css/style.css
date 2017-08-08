@@ -157,17 +157,67 @@ a.active,a.link {
     padding-left: 10px;
 }
 .content-wrapper {
-    position:absolute;
-    left:160px;
-    top:60px;
+    margin-top: 60px;
 }
 .content-container{
-    width:700px;
-    margin:20px 0;
+    width: 200px;
+    margin: 20px 0;
 }
 #Menu {
-    position:fixed;
-    top:80px;
-    left:900px;
-    text-align:center;
+    position: fixed;
+    top: 60px;
+    left: 50%;
+    margin-left: 50px;
+    text-align: center;
+}
+.container {
+    width: 300px;
+    margin: 0 auto;
+}
+@media (min-width: 550px) {
+    .container {
+        width: 500px;
+    }
+    .content-container{
+        width: 360px;
+    }
+    #Menu {
+        margin-left: 120px;
+    }
+}
+@media (min-width: 750px) {
+    .container {
+        width: 660px;
+    }
+    .content-container{
+        width: 480px;
+    }
+    #Menu {
+        margin-left: 160px;
+    }
+}
+
+/* 中等屏幕（桌面显示器，大于等于 992px） */
+@media (min-width: 970px) {
+    .container {
+        width: 800px;
+    }
+    .content-container{
+        width: 600px;
+    }
+    #Menu {
+        margin-left: 200px;
+    }
+}
+
+/* 大屏幕（大桌面显示器，大于等于 1200px） */
+@media (min-width: 1170px) {
+    .container {
+        width: 960px;
+    }
+    .content-container{
+        width: 700px;
+    }#Menu {
+         margin-left: 240px;
+     }
 }

@@ -20,6 +20,7 @@
 		<?php wp_head(); ?>
 	</head>
 	<body <?php body_class(); ?> >
+	<div class="container">
 		<div id="Menu">
 			<span class="Name"><a href="<?php echo esc_url( home_url( '/' ) ); ?>" style="color:#000;"><?php bloginfo( 'name' ); ?></a></span>
 			<div style="margin-top:40px; text-transform:uppercase; font-size:11px; letter-spacing:1px;">
