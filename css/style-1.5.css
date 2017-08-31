@@ -166,8 +166,13 @@ a.active,a.link {
     margin:20px 0;
 }
 #Menu {
-    position:fixed;
+    position:absolute;
     top:80px;
-    left:900px;
+    right:200px;
     text-align:center;
+}
+.main-container{
+    position: relative;
+    width: 960px;
+    margin: 0 auto;
 }

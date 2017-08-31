@@ -14,12 +14,13 @@
 		<meta charset="utf-8" />
 		<meta http-equiv="X-UA-Compatible" content="IE=edge">
 		<meta name="description" content="<?php bloginfo( 'description' ); ?>">
-<!--		<meta name="viewport" content="width=device-width, initial-scale=1">-->
+		<meta name="viewport" content="width=1024">
 		<link rel="stylesheet" href="<?php echo get_template_directory_uri();?>/css/style-1.5.css">
 		<link rel="stylesheet" href="<?php echo get_template_directory_uri();?>/css/lightbox.css">
 		<?php wp_head(); ?>
 	</head>
 	<body <?php body_class(); ?> >
+	<div class="main-container">
 		<div id="Menu">
 			<span class="Name"><a href="<?php echo esc_url( home_url( '/' ) ); ?>" style="color:#000;"><?php bloginfo( 'name' ); ?></a></span>
 			<div style="margin-top:40px; text-transform:uppercase; font-size:11px; letter-spacing:1px;">
