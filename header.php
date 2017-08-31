@@ -15,7 +15,7 @@
 		<meta http-equiv="X-UA-Compatible" content="IE=edge">
 		<meta name="description" content="<?php bloginfo( 'description' ); ?>">
 		<meta name="viewport" content="width=1024">
-		<link rel="stylesheet" href="<?php echo get_template_directory_uri();?>/css/style-1.5.css">
+		<link rel="stylesheet" href="<?php echo get_template_directory_uri();?>/css/style-1.6.css">
 		<link rel="stylesheet" href="<?php echo get_template_directory_uri();?>/css/lightbox.css">
 		<?php wp_head(); ?>
 	</head>
